@@ -12,7 +12,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация бота
-TOKEN = 'TELEGRAM_TOKEN'  # Замените на ваш токен от @BotFather
+TOKEN = 'YOUR_BOT_TOKEN_HERE'  # Замените на ваш токен от @BotFather
 bot = telebot.TeleBot(TOKEN)
 
 # ========== ПОЛНАЯ БАЗА ЗНАНИЙ (50 ВОПРОСОВ) ==========
